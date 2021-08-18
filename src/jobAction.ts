@@ -9,7 +9,7 @@ import { copyFile, removeSync } from 'fs-extra';
  * Compressarr Job Action
  * This class is the main constructor for your plugin, this is where you should parse the user config.
  */
-export class ExampleCompressarrPlatform implements JobActionPlugin {
+export class ExampleCompressarrJobAction implements JobActionPlugin {
 
     /**
      * This is used to track jobs.
