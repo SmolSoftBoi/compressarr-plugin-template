@@ -23,6 +23,13 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@epickris/node-logger@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@epickris/node-logger/-/node-logger-0.0.3.tgz#3b8d6c38acc3d5b8ace8177cd8fd71af436a9663"
+  integrity sha512-oUWXAR4mvbA4XS688SlqDqCLi1rHO7jYoecrJRFHvnOAAM5n+hVBVGckuj7yd9sjVQIeM63QoYyoz9TWTCrEnQ==
+  dependencies:
+    chalk "^4.1.0"
+
 "@eslint/eslintrc@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.0.tgz#99cc0a0584d72f1df38b900fb062ba995f395547"
@@ -452,11 +459,12 @@ commander@7.1.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-7.1.0.tgz#f2eaecf131f10e36e07d894698226e36ae0eb5ff"
   integrity sha512-pRxBna3MJe6HKnBGsDyMv8ETbptw3axEdYHoqNh7gu5oDcew8fs0xnivZGm06Ogk8zGAJ9VX+OPEr2GXEQK4dg==
 
-compressarr@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/compressarr/-/compressarr-0.0.5.tgz#9080d9d1d277ca12e47ad1e5e6a08d310a19cea8"
-  integrity sha512-fm5ou0nbX21wLSwqU7smaWIrT+HMyH5Ik3mS7R0BVDmTwD2D2KA/7G91xlqV7QDclBZbMxEfDyKlAlHzK1qGEQ==
+compressarr@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/compressarr/-/compressarr-0.1.0.tgz#edfef6c8cea21dbb444c21276fb3bb030b0abaf0"
+  integrity sha512-2+WjB8fg0ZtluIGRLhzjsW2dfZJPr7+ClQ4wxcSJ7uiWPfzcPt3+uj7Cd+OvEf+CnERkGMg469mZgo8J3EiauA==
   dependencies:
+    "@epickris/node-logger" "^0.0.3"
     chalk "^4.1.0"
     chokidar "^3.5.1"
     commander "7.1.0"
@@ -1258,9 +1266,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 ms@2.0.0:
   version "2.0.0"
