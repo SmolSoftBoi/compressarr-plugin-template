@@ -31,7 +31,7 @@
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.11.5",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.19.1",
+    "@typescript-eslint/parser": "^6.21.0",
     "compressarr": "^0.1.0",
     "eslint": "^8.56.0",
     "nodemon": "^3.0.3",
